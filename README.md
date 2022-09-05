@@ -16,9 +16,10 @@ website, and a link to the reviews) about the place. They are also able to see d
 
 
 #### Special Features:
-- All the details provided for each business are hyperlinked to the corresponding app. For instance, when viewing the phone number of a certain restaurant or 
-sight, users can simply tap on the "Call" button and it will take to them to the phone app. 
-- 
+- All the details provided for each business are hyperlinked to the corresponding app. For instance, when viewing the phone number of a certain restaurant or sight, users can simply tap on the "Call" button and it will take to them to the phone app. 
+- Map pins are tappable and provide the same detailed view as from the list. 
+- Directions to the location can be previewed within the app as well as directly opened in Apple Maps. 
+- Same features are available from any location.
 
 #### Note On Replication:
 Since this app utilizes the Yelp API, I had to create a personal API key in order to fetch information from Yelp's database. Because of privacy reasons
