@@ -14,6 +14,17 @@ website, and a link to the reviews) about the place. They are also able to see d
 
 #### Views from the App! 
 
+##### Welcome + Permission
+<img width="250" height="470" alt="onboarding1" src="https://user-images.githubusercontent.com/60487925/188354294-5002b5e9-1ff6-48a1-82e5-cd471ddf4c84.png"> <img width="250" height="470" alt="onboarding2" src="https://user-images.githubusercontent.com/60487925/188354303-1dfa0cc3-a77b-4292-a6bd-3682f7365360.png"> <img width="250" height="470" alt="permission" src="https://user-images.githubusercontent.com/60487925/188354305-37b196aa-42e0-4dc2-bf44-5232ed038a21.png">
+
+##### List + Map Views
+<img width="250" height="470" alt="listview1" src="https://user-images.githubusercontent.com/60487925/188354318-c2f6ddd4-88c6-45c4-bdce-670d4045c82f.png"> <img width="250" height="470" alt="listview2" src="https://user-images.githubusercontent.com/60487925/188354323-5ad69b28-fe52-4a74-b55c-b2ac51f0e876.png"> <img width="250" height="470" alt="mapview" src="https://user-images.githubusercontent.com/60487925/188354325-6eb721b4-62ac-4867-9783-5ad2d551dc3d.png">
+
+##### Details
+<img width="250" height="470" alt="detailsview" src="https://user-images.githubusercontent.com/60487925/188354342-0dad6f48-c3d3-417a-af04-6204bbfe8756.png"> <img width="250" height="470" alt="yelphyperlink" src="https://user-images.githubusercontent.com/60487925/188354346-b391905c-9dd1-4ff9-95af-f5b911b515fc.png">
+
+##### Directions
+<img width="250" height="470" alt="directionsview" src="https://user-images.githubusercontent.com/60487925/188354372-26f32d58-2e84-4ae4-aee4-3130a9402651.png"> <img width="250" height="470" alt="directionsapple" src="https://user-images.githubusercontent.com/60487925/188354369-2a049142-3349-44ef-834e-84028c1e8e5a.png">
 
 #### Special Features:
 - All the details provided for each business are hyperlinked to the corresponding app. For instance, when viewing the phone number of a certain restaurant or sight, users can simply tap on the "Call" button and it will take to them to the phone app. 
