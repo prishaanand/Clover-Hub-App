@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B1CCCB2928C594190028DE74 /* Clover_Hub_PublicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCCB2828C594190028DE74 /* Clover_Hub_PublicApp.swift */; };
+		B1CCCB2928C594190028DE74 /* Clover_Hub_Public.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCCB2828C594190028DE74 /* Clover_Hub_Public.swift */; };
 		B1CCCB2B28C594190028DE74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCCB2A28C594190028DE74 /* ContentView.swift */; };
 		B1CCCB2D28C5941C0028DE74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1CCCB2C28C5941C0028DE74 /* Assets.xcassets */; };
 		B1CCCB3028C5941C0028DE74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1CCCB2F28C5941C0028DE74 /* Preview Assets.xcassets */; };
@@ -15,7 +15,7 @@
 
 /* Begin PBXFileReference section */
 		B1CCCB2528C594190028DE74 /* Clover_Hub-Public.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clover_Hub-Public.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B1CCCB2828C594190028DE74 /* Clover_Hub_PublicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clover_Hub_PublicApp.swift; sourceTree = "<group>"; };
+		B1CCCB2828C594190028DE74 /* Clover_Hub_Public.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clover_Hub_Public.swift; sourceTree = "<group>"; };
 		B1CCCB2A28C594190028DE74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B1CCCB2C28C5941C0028DE74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1CCCB2F28C5941C0028DE74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		B1CCCB2728C594190028DE74 /* Clover_Hub-Public */ = {
 			isa = PBXGroup;
 			children = (
-				B1CCCB2828C594190028DE74 /* Clover_Hub_PublicApp.swift */,
+				B1CCCB2828C594190028DE74 /* Clover_Hub_Public.swift */,
 				B1CCCB2A28C594190028DE74 /* ContentView.swift */,
 				B1CCCB2C28C5941C0028DE74 /* Assets.xcassets */,
 				B1CCCB2E28C5941C0028DE74 /* Preview Content */,
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B1CCCB2B28C594190028DE74 /* ContentView.swift in Sources */,
-				B1CCCB2928C594190028DE74 /* Clover_Hub_PublicApp.swift in Sources */,
+				B1CCCB2928C594190028DE74 /* Clover_Hub_Public.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

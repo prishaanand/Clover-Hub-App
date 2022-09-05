@@ -8,7 +8,7 @@
 import SwiftUI
 
 @main
-struct Clover_Hub_PublicApp: App {
+struct Clover_Hub_Public: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
