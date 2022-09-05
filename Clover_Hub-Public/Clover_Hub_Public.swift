@@ -11,7 +11,8 @@ import SwiftUI
 struct Clover_Hub_Public: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LaunchView()
+                .environmentObject(ContentModel())
         }
     }
 }

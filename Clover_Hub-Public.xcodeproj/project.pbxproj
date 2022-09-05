@@ -8,17 +8,61 @@
 
 /* Begin PBXBuildFile section */
 		B1CCCB2928C594190028DE74 /* Clover_Hub_Public.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCCB2828C594190028DE74 /* Clover_Hub_Public.swift */; };
-		B1CCCB2B28C594190028DE74 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCCB2A28C594190028DE74 /* ContentView.swift */; };
 		B1CCCB2D28C5941C0028DE74 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1CCCB2C28C5941C0028DE74 /* Assets.xcassets */; };
 		B1CCCB3028C5941C0028DE74 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1CCCB2F28C5941C0028DE74 /* Preview Assets.xcassets */; };
+		B1CCCB3E28C594E00028DE74 /* Clover-Hub-Public-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B1CCCB3628C594AD0028DE74 /* Clover-Hub-Public-Info.plist */; };
+		B1CCCB4028C594F50028DE74 /* OpenSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1CCCB3F28C594F50028DE74 /* OpenSans-Bold.ttf */; };
+		B1CCCB4228C595010028DE74 /* OpenSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1CCCB4128C595010028DE74 /* OpenSans-Light.ttf */; };
+		B1CCCB4428C5950C0028DE74 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1CCCB4328C5950C0028DE74 /* OpenSans-Regular.ttf */; };
+		B1CCCB5028C596040028DE74 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCCB4F28C596040028DE74 /* Constants.swift */; };
+		B1CCCB5228C596280028DE74 /* Business.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCCB5128C596280028DE74 /* Business.swift */; };
+		B1CCCB5428C596330028DE74 /* BusinessSearch.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCCB5328C596330028DE74 /* BusinessSearch.swift */; };
+		B1CCCB5628C5965D0028DE74 /* ContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCCB5528C5965D0028DE74 /* ContentModel.swift */; };
+		B1CCCB5828C5968A0028DE74 /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCCB5728C5968A0028DE74 /* LaunchView.swift */; };
+		B1CCCB5E28C596C50028DE74 /* YelpAttribution.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCCB5D28C596C50028DE74 /* YelpAttribution.swift */; };
+		B1CCCB6028C596DC0028DE74 /* DashedDivider.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCCB5F28C596DC0028DE74 /* DashedDivider.swift */; };
+		B1CCCB6228C597050028DE74 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCCB6128C597050028DE74 /* HomeView.swift */; };
+		B1CCCB6728C597480028DE74 /* BusinessDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCCB6628C597480028DE74 /* BusinessDetail.swift */; };
+		B1CCCB6928C5975B0028DE74 /* DirectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCCB6828C5975A0028DE74 /* DirectionsView.swift */; };
+		B1CCCB6B28C5976C0028DE74 /* BusinessTitle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCCB6A28C5976C0028DE74 /* BusinessTitle.swift */; };
+		B1CCCB6D28C597880028DE74 /* BusinessMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCCB6C28C597880028DE74 /* BusinessMap.swift */; };
+		B1CCCB6F28C5979B0028DE74 /* DirectionsMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCCB6E28C5979B0028DE74 /* DirectionsMap.swift */; };
+		B1CCCB7128C597B50028DE74 /* BusinessList.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCCB7028C597B50028DE74 /* BusinessList.swift */; };
+		B1CCCB7328C597EE0028DE74 /* BusinessSectionHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCCB7228C597EE0028DE74 /* BusinessSectionHeader.swift */; };
+		B1CCCB7528C598050028DE74 /* BusinessSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCCB7428C598050028DE74 /* BusinessSection.swift */; };
+		B1CCCB7728C598190028DE74 /* BusinessRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCCB7628C598190028DE74 /* BusinessRow.swift */; };
+		B1CCCB7928C598530028DE74 /* LocationDeniedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCCB7828C598530028DE74 /* LocationDeniedView.swift */; };
+		B1CCCB7B28C5986A0028DE74 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1CCCB7A28C5986A0028DE74 /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		B1CCCB2528C594190028DE74 /* Clover_Hub-Public.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Clover_Hub-Public.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1CCCB2828C594190028DE74 /* Clover_Hub_Public.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Clover_Hub_Public.swift; sourceTree = "<group>"; };
-		B1CCCB2A28C594190028DE74 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B1CCCB2C28C5941C0028DE74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1CCCB2F28C5941C0028DE74 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B1CCCB3628C594AD0028DE74 /* Clover-Hub-Public-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Clover-Hub-Public-Info.plist"; sourceTree = SOURCE_ROOT; };
+		B1CCCB3F28C594F50028DE74 /* OpenSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Bold.ttf"; path = "../../../../Downloads/open-sans/OpenSans-Bold.ttf"; sourceTree = "<group>"; };
+		B1CCCB4128C595010028DE74 /* OpenSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Light.ttf"; path = "../../../../Downloads/open-sans/OpenSans-Light.ttf"; sourceTree = "<group>"; };
+		B1CCCB4328C5950C0028DE74 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "../../../../Downloads/open-sans/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		B1CCCB4F28C596040028DE74 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		B1CCCB5128C596280028DE74 /* Business.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Business.swift; sourceTree = "<group>"; };
+		B1CCCB5328C596330028DE74 /* BusinessSearch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSearch.swift; sourceTree = "<group>"; };
+		B1CCCB5528C5965D0028DE74 /* ContentModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentModel.swift; sourceTree = "<group>"; };
+		B1CCCB5728C5968A0028DE74 /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
+		B1CCCB5D28C596C50028DE74 /* YelpAttribution.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YelpAttribution.swift; sourceTree = "<group>"; };
+		B1CCCB5F28C596DC0028DE74 /* DashedDivider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DashedDivider.swift; sourceTree = "<group>"; };
+		B1CCCB6128C597050028DE74 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		B1CCCB6628C597480028DE74 /* BusinessDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessDetail.swift; sourceTree = "<group>"; };
+		B1CCCB6828C5975A0028DE74 /* DirectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsView.swift; sourceTree = "<group>"; };
+		B1CCCB6A28C5976C0028DE74 /* BusinessTitle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessTitle.swift; sourceTree = "<group>"; };
+		B1CCCB6C28C597880028DE74 /* BusinessMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessMap.swift; sourceTree = "<group>"; };
+		B1CCCB6E28C5979B0028DE74 /* DirectionsMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectionsMap.swift; sourceTree = "<group>"; };
+		B1CCCB7028C597B50028DE74 /* BusinessList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessList.swift; sourceTree = "<group>"; };
+		B1CCCB7228C597EE0028DE74 /* BusinessSectionHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSectionHeader.swift; sourceTree = "<group>"; };
+		B1CCCB7428C598050028DE74 /* BusinessSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessSection.swift; sourceTree = "<group>"; };
+		B1CCCB7628C598190028DE74 /* BusinessRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BusinessRow.swift; sourceTree = "<group>"; };
+		B1CCCB7828C598530028DE74 /* LocationDeniedView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDeniedView.swift; sourceTree = "<group>"; };
+		B1CCCB7A28C5986A0028DE74 /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +95,13 @@
 		B1CCCB2728C594190028DE74 /* Clover_Hub-Public */ = {
 			isa = PBXGroup;
 			children = (
+				B1CCCB3628C594AD0028DE74 /* Clover-Hub-Public-Info.plist */,
 				B1CCCB2828C594190028DE74 /* Clover_Hub_Public.swift */,
-				B1CCCB2A28C594190028DE74 /* ContentView.swift */,
+				B1CCCB4B28C595C70028DE74 /* Views */,
+				B1CCCB4C28C595CC0028DE74 /* ViewModels */,
+				B1CCCB4D28C595D20028DE74 /* Models */,
+				B1CCCB4E28C595EA0028DE74 /* Helpers */,
+				B1CCCB3728C594BF0028DE74 /* Fonts */,
 				B1CCCB2C28C5941C0028DE74 /* Assets.xcassets */,
 				B1CCCB2E28C5941C0028DE74 /* Preview Content */,
 			);
@@ -65,6 +114,119 @@
 				B1CCCB2F28C5941C0028DE74 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B1CCCB3728C594BF0028DE74 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				B1CCCB3F28C594F50028DE74 /* OpenSans-Bold.ttf */,
+				B1CCCB4128C595010028DE74 /* OpenSans-Light.ttf */,
+				B1CCCB4328C5950C0028DE74 /* OpenSans-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		B1CCCB4B28C595C70028DE74 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B1CCCB5728C5968A0028DE74 /* LaunchView.swift */,
+				B1CCCB5A28C596A50028DE74 /* Home */,
+				B1CCCB5B28C596AA0028DE74 /* Denied */,
+				B1CCCB5C28C596AE0028DE74 /* Onboarding */,
+				B1CCCB5928C5969C0028DE74 /* Common */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B1CCCB4C28C595CC0028DE74 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				B1CCCB5528C5965D0028DE74 /* ContentModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		B1CCCB4D28C595D20028DE74 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B1CCCB5128C596280028DE74 /* Business.swift */,
+				B1CCCB5328C596330028DE74 /* BusinessSearch.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B1CCCB4E28C595EA0028DE74 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B1CCCB4F28C596040028DE74 /* Constants.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B1CCCB5928C5969C0028DE74 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				B1CCCB5D28C596C50028DE74 /* YelpAttribution.swift */,
+				B1CCCB5F28C596DC0028DE74 /* DashedDivider.swift */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		B1CCCB5A28C596A50028DE74 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				B1CCCB6128C597050028DE74 /* HomeView.swift */,
+				B1CCCB6328C597110028DE74 /* Detail */,
+				B1CCCB6428C597190028DE74 /* Map */,
+				B1CCCB6528C5972F0028DE74 /* List */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		B1CCCB5B28C596AA0028DE74 /* Denied */ = {
+			isa = PBXGroup;
+			children = (
+				B1CCCB7828C598530028DE74 /* LocationDeniedView.swift */,
+			);
+			path = Denied;
+			sourceTree = "<group>";
+		};
+		B1CCCB5C28C596AE0028DE74 /* Onboarding */ = {
+			isa = PBXGroup;
+			children = (
+				B1CCCB7A28C5986A0028DE74 /* OnboardingView.swift */,
+			);
+			path = Onboarding;
+			sourceTree = "<group>";
+		};
+		B1CCCB6328C597110028DE74 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+				B1CCCB6628C597480028DE74 /* BusinessDetail.swift */,
+				B1CCCB6828C5975A0028DE74 /* DirectionsView.swift */,
+				B1CCCB6A28C5976C0028DE74 /* BusinessTitle.swift */,
+			);
+			path = Detail;
+			sourceTree = "<group>";
+		};
+		B1CCCB6428C597190028DE74 /* Map */ = {
+			isa = PBXGroup;
+			children = (
+				B1CCCB6C28C597880028DE74 /* BusinessMap.swift */,
+				B1CCCB6E28C5979B0028DE74 /* DirectionsMap.swift */,
+			);
+			path = Map;
+			sourceTree = "<group>";
+		};
+		B1CCCB6528C5972F0028DE74 /* List */ = {
+			isa = PBXGroup;
+			children = (
+				B1CCCB7028C597B50028DE74 /* BusinessList.swift */,
+				B1CCCB7228C597EE0028DE74 /* BusinessSectionHeader.swift */,
+				B1CCCB7428C598050028DE74 /* BusinessSection.swift */,
+				B1CCCB7628C598190028DE74 /* BusinessRow.swift */,
+			);
+			path = List;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +289,10 @@
 			files = (
 				B1CCCB3028C5941C0028DE74 /* Preview Assets.xcassets in Resources */,
 				B1CCCB2D28C5941C0028DE74 /* Assets.xcassets in Resources */,
+				B1CCCB4028C594F50028DE74 /* OpenSans-Bold.ttf in Resources */,
+				B1CCCB4228C595010028DE74 /* OpenSans-Light.ttf in Resources */,
+				B1CCCB4428C5950C0028DE74 /* OpenSans-Regular.ttf in Resources */,
+				B1CCCB3E28C594E00028DE74 /* Clover-Hub-Public-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -137,8 +303,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B1CCCB2B28C594190028DE74 /* ContentView.swift in Sources */,
+				B1CCCB7528C598050028DE74 /* BusinessSection.swift in Sources */,
+				B1CCCB5228C596280028DE74 /* Business.swift in Sources */,
+				B1CCCB6D28C597880028DE74 /* BusinessMap.swift in Sources */,
 				B1CCCB2928C594190028DE74 /* Clover_Hub_Public.swift in Sources */,
+				B1CCCB6F28C5979B0028DE74 /* DirectionsMap.swift in Sources */,
+				B1CCCB7B28C5986A0028DE74 /* OnboardingView.swift in Sources */,
+				B1CCCB7128C597B50028DE74 /* BusinessList.swift in Sources */,
+				B1CCCB6228C597050028DE74 /* HomeView.swift in Sources */,
+				B1CCCB6028C596DC0028DE74 /* DashedDivider.swift in Sources */,
+				B1CCCB5828C5968A0028DE74 /* LaunchView.swift in Sources */,
+				B1CCCB6B28C5976C0028DE74 /* BusinessTitle.swift in Sources */,
+				B1CCCB6728C597480028DE74 /* BusinessDetail.swift in Sources */,
+				B1CCCB5428C596330028DE74 /* BusinessSearch.swift in Sources */,
+				B1CCCB5028C596040028DE74 /* Constants.swift in Sources */,
+				B1CCCB7328C597EE0028DE74 /* BusinessSectionHeader.swift in Sources */,
+				B1CCCB5628C5965D0028DE74 /* ContentModel.swift in Sources */,
+				B1CCCB7928C598530028DE74 /* LocationDeniedView.swift in Sources */,
+				B1CCCB6928C5975B0028DE74 /* DirectionsView.swift in Sources */,
+				B1CCCB5E28C596C50028DE74 /* YelpAttribution.swift in Sources */,
+				B1CCCB7728C598190028DE74 /* BusinessRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,6 +454,8 @@
 				DEVELOPMENT_TEAM = P775YD9KLQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Clover-Hub-Public-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Grant permission to find restaurants and sights";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -299,6 +485,8 @@
 				DEVELOPMENT_TEAM = P775YD9KLQ;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Clover-Hub-Public-Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Grant permission to find restaurants and sights";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
